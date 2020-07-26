@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+  }
+  /*
+  body{
+    overflow: hidden;    
+  }*/
+  body {
+    height: 100%;
+   /* background: linear-gradient(to right, #c3f5ff 25%,#cc99ff 50%);*/
+   background-image: url("http://localhost/coronaupdate/images/Background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+  header{
+    width:100%;
+    height:20vh;
+   /* background-image: linear-gradient(to left,#fff 80%,#c3f5ff 20%);*/
+  }
+  .leftside{
+    padding-left: 8px;
+    padding-right: 0%;
+  }
+  .style{
+    font-weight: bold;
+    color: blanchedalmond;
+  }
+  center{
+    align-items: center;
+  }
+  
+span img{
+  height: 50px;
+  width: 50px;
+}
+span img{
+  animation: rimi 3s linear infinite;
+}
+@keyframes rimi{
+  0%{transform: rotate(0);}
+  100%{transform: rotate(360deg);}
+}

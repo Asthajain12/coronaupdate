@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body{
+    overflow: hidden;    
+  }
+  body {
+    height: 100%;
+   /* background: linear-gradient(to right, #c3f5ff 25%,#cc99ff 50%);*/
+   background-image: url("http://localhost/coronaupdate/images/Background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+  header{
+    width:100%;
+    height:20vh;
+   /* background-image: linear-gradient(to left,#fff 80%,#c3f5ff 20%);*/
+  }
+.middle{
+    position: absolute;
+    padding: 8px;
+    margin-top: 30px;
+}
+.set{
+    padding-left:300px;
+    margin-top: 10px;
+}
+.set h1{
+    font-size: 50px;
+    
+}
+.set h2{
+    font-size: 30px;
+}
+.setp{
+    padding-left:160px ;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 90%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .icons{
+      padding-left:25px;
+  }
+  .myform{
+      padding-top: 70px;
+  }
+  span img{
+    height: 50px;
+    width: 50px;
+  }
+  span img{
+    animation: rimi 3s linear infinite;
+  }
+  @keyframes rimi{
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);}
+  }
+  
